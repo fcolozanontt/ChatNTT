@@ -47,7 +47,7 @@ print('We import pickle')
 import pickle
 
 print('Now, we open a file. Its important to use binary mode')
-knnPickle = open('knnpickle_file', 'wb') 
+knnPickle = open('model/knnpickle_file', 'wb') 
       
 print('We give it source and destination')
 pickle.dump(knn, knnPickle)  
